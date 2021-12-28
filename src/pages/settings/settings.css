@@ -1,5 +1,7 @@
 .settings{
 	display: flex;
+	margin: 0 auto;
+	padding-top:50px;
 }
 
 .settingsWrapper{
@@ -7,6 +9,25 @@
 	padding: 20px;
 
 
+}
+
+.dangeri {
+	background: crimson;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 25px 10px 25px;
+}
+
+.gangeri {
+	background: #3f32a2;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 25px 10px 25px;
+	font-size: 22px;
+	font-weight: bolder;
+	max-width: 300px;
 }
 
 .settingsTitle{
