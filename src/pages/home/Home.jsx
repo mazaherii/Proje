@@ -6,12 +6,12 @@ import "./home.css"
 export default function Home() {
 	return (
 		<>
-		<Header/>
+		
 		<div className="home col-lg-9">
 		<Posts />
 		<Sidebar/>
-			
 		</div>
+		<Header/>
 		</>
 	)
 
