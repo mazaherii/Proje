@@ -5,12 +5,13 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import './bootstrap.css'; 
 
 function App() {
   const user = true;
   return (
-    <Router>
+    <Router className="wrapper">
       <TopBar />
       <Switch>
         <Route exact path="/">
@@ -25,6 +26,9 @@ function App() {
         </Route>
       </Switch>
     </Router>
+     
+    
+
   );
 }
 
