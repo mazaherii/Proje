@@ -26,6 +26,10 @@ export default function Post() {
 											</div>
 										</div>
 									</div>
-	</div></div></selection>
+	</div></div>
+	</selection>
+
+
+	
 	)
 }
