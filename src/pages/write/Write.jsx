@@ -18,7 +18,7 @@ export default function Write() {
 				<textarea placeholder="Yazmaya Basla... " type="text" className="writeInput writeText"></textarea>
 			</div>
 			<div className="writeFormGroup col-lg-3">
-			<button className="publish"> PUBLISH </button>
+			<button className="gangeri"> Publish </button>
 			</div>
 			</form>
 		</div>

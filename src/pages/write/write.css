@@ -1,16 +1,20 @@
 .publish {
-	font-size: 16px;
-	font-weight: bold;
-	background: #c5bff4;
 	font-family: 'Poppins';
-	border-radius: 5px;
-	color: #3e32a2;
-	padding: 10px 25px 10px 25px;
 	text-align: center;
 	vertical-align: middle;
 	text-decoration: none;
 	letter-spacing: 0.1em;
 	border:none;
+}
+.gangeri {
+	background: #3f32a2;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 25px 10px 25px;
+	font-size: 18px;
+	font-weight: bolder;
+	max-width: 300px;
 }
 .write{
 	padding-top: 50px;

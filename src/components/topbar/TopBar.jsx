@@ -11,7 +11,7 @@ export default function TopBar() {
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <Link className="navbar-brand" href="index.html"><img src="images/main/logo.png" alt="" /></Link>
+                    <Link className="navbar-brand" to="/"><img src="images/main/logo.png" alt="" /></Link>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
